@@ -32,7 +32,7 @@ const firmSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Vendor'  // Corrected capitalization
     }],
-    product: [{
+    products: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Product'  // Corrected capitalization
     }]
